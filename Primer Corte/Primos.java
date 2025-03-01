@@ -12,7 +12,7 @@ public class Primos {
             boolean Primo = true;
             for (int j = 2; j <= raiz; j++) {
                 if (i % j == 0) {
-                    esPrimo = false;
+                    Primo = false;
                     break;
                 }
             }
