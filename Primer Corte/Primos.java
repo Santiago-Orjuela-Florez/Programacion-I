@@ -9,14 +9,14 @@ public class Primos {
         numero = leer.nextInt();
         for (int i = 2; i <= numero; i++) {
             raiz = Math.sqrt(i);
-            boolean esPrimo = true;
+            boolean Primo = true;
             for (int j = 2; j <= raiz; j++) {
                 if (i % j == 0) {
                     esPrimo = false;
                     break;
                 }
             }
-            if (esPrimo) {
+            if (Primo) {
                 System.out.println(i);
             }
         }
