@@ -32,6 +32,7 @@ public class Operaciones {
                 resultado = (float) num1 / num2; 
             } else {
                 System.out.println("Error, no se puede dividir por cero");
+                return Float.NaN; 
             }
         }
         return resultado;
